@@ -5,9 +5,13 @@
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
-    "lint": "vue-cli-service lint"
+    "lint": "vue-cli-service lint",
+    "prepare": "husky install",
+    "lint:eslint": "eslint --fix --ext .js,jsx,.vue",
+    "format": "prettier --write \"**/*.{js,jsx,vue}\""
   },
   "dependencies": {
+    "@conventional-commits/parser": "^0.4.1",
     "core-js": "^3.8.3",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
@@ -16,6 +20,8 @@
   "devDependencies": {
     "@babel/core": "^7.12.16",
     "@babel/eslint-parser": "^7.12.16",
+    "@commitlint/cli": "^19.5.0",
+    "@commitlint/config-conventional": "^19.5.0",
     "@vue/cli-plugin-babel": "~5.0.0",
     "@vue/cli-plugin-eslint": "~5.0.0",
     "@vue/cli-plugin-router": "~5.0.0",
@@ -25,9 +31,15 @@
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.0.3",
+    "husky": "8.0.3",
+    "lint-staged": "^15.2.10",
     "prettier": "^2.4.1",
-    "sass": "^1.32.7",
+    "sass": "^1.78.0",
     "sass-loader": "^12.0.0",
     "vue-template-compiler": "^2.6.14"
+  },
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=9.0.0"
   }
 }

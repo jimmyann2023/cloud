@@ -18,7 +18,7 @@ module.exports = defineConfig({
     loaderOptions: {
       sass: {
         // 全局变量
-        additionalData: `@import "@/styles/variables.scss";`
+        additionalData: `@import "@/styles/_variables.scss";`
       }
     }
   },

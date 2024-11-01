@@ -1,0 +1,16 @@
+// :root{} 全局变量 :root是一个伪类，表示文档根元素。在:root中声明相当于全局属性
+
+:root {
+  --vxe-ui-table-header-background-color: #edeff8;
+  --vxe-ui-table-border-color: #e8eaec;
+  --vxe-ui-table-row-hover-background-color: #f5f7fa;
+  --vxe-ui-table-row-striped-background-color: #fafafa;
+  --vxe-ui-table-row-hover-striped-background-color: #f5f7fa;
+  --vxe-ui-table-row-radio-checked-background-color: #fff3e0;
+  --vxe-ui-table-row-hover-radio-checked-background-color: #ffebbc;
+  --vxe-ui-table-row-checkbox-checked-background-color: #fff3e0;
+  --vxe-ui-table-row-hover-checkbox-checked-background-color: #ffebbc;
+  --vxe-ui-table-row-current-background-color: #e6f7ff;
+  --vxe-ui-table-row-hover-current-background-color: #d7effb;
+  --vxe-ui-table-fixed-scrolling-box-shadow-color: rgba(0, 0, 0, 0.12);
+}

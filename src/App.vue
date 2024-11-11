@@ -4,6 +4,8 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
+    <span>jsx组件：</span>
+    <Hello />
     <div class="bg-blue-600">aaa</div>
     <a-button type="primary"> Primary </a-button>
     <vxe-table :data="tableData">
@@ -17,9 +19,12 @@
 </template>
 
 <script>
+import Hello from '@/components/Hello'
 export default {
   name: 'App',
-  components: {},
+  components: {
+    Hello
+  },
   data() {
     const tableData = [
       { id: 10001, name: 'Test1', role: 'Develop', sex: 'Man', age: 28, address: 'test abc' },

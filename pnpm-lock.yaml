@@ -54,6 +54,12 @@ importers:
       '@tailwindcss/postcss7-compat':
         specifier: ^2.2.17
         version: 2.2.17
+      '@vue/babel-helper-vue-jsx-merge-props':
+        specifier: ^1.4.0
+        version: 1.4.0
+      '@vue/babel-preset-jsx':
+        specifier: ^1.4.0
+        version: 1.4.0(@babel/core@7.26.0)(vue@2.7.16)
       '@vue/cli-plugin-babel':
         specifier: ~5.0.0
         version: 5.0.8(@vue/cli-service@5.0.8(@vue/compiler-sfc@3.5.12)(less-loader@5.0.0(less@3.13.1)(webpack@5.96.0))(lodash@4.17.21)(prettier@2.8.8)(sass-loader@12.6.0(sass@1.80.5)(webpack@5.96.0))(vue-template-compiler@2.7.16)(vue@2.7.16)(webpack-sources@3.2.3))(core-js@3.39.0)(vue@2.7.16)

@@ -8,7 +8,8 @@
     "lint": "vue-cli-service lint",
     "prepare": "husky install",
     "lint:eslint": "eslint --fix --ext .js,jsx,.vue",
-    "format": "prettier --write \"**/*.{js,jsx,vue}\""
+    "format": "prettier --write \"**/*.{js,jsx,vue}\"",
+    "lint-staged": "lint-staged"
   },
   "dependencies": {
     "@conventional-commits/parser": "^0.4.1",

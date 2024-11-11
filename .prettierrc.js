@@ -13,8 +13,9 @@ module.exports = {
   // 大括号内的首尾需要空格
   bracketSpacing: true,
   // jsx 标签的反尖括号需要换行
-  jsxBracketSameLine: false,
+  jsxBracketSameLine: true,
   // 箭头函数，只有一个参数的时候，也需要括号
   arrowParens: 'always',
+  // 最后一行git提交方式
   endOfLine: 'auto'
 }

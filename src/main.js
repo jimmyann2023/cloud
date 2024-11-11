@@ -3,6 +3,7 @@ import Antd from 'ant-design-vue'
 
 import App from './App.vue'
 
+import 'tailwindcss/tailwind.css'
 import 'vxe-pc-ui/lib/style.css'
 import 'vxe-table/lib/style.css'
 import './styles/custom-vxe.scss'

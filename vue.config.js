@@ -22,18 +22,12 @@ module.exports = defineConfig({
       },
       less: {
         javascriptEnabled: true
+      },
+      postcss: {
+        postcssOptions: {
+          plugins: [require('tailwindcss'), require('autoprefixer')]
+        }
       }
-      // less: {
-      //   lessOptions: {
-      //     javascriptEnabled: true,
-      //     // If you are using less-loader@5 please spread the lessOptions to options directly
-      //     modifyVars: {
-      //       'primary-color': '#1DA57A',
-      //       'link-color': '#1DA57A',
-      //       'border-radius-base': '2px'
-      //     }
-      //   }
-      // }
     }
   },
   devServer: {

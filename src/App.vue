@@ -4,6 +4,7 @@
       <router-link to="/">Home</router-link> |
       <router-link to="/about">About</router-link>
     </nav>
+    <div class="bg-blue-600">aaa</div>
     <a-button type="primary"> Primary </a-button>
     <vxe-table :data="tableData">
       <vxe-column type="seq" width="70"></vxe-column>

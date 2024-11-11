@@ -19,7 +19,21 @@ module.exports = defineConfig({
       sass: {
         // 全局变量
         additionalData: `@import "@/styles/_variables.scss";`
+      },
+      less: {
+        javascriptEnabled: true
       }
+      // less: {
+      //   lessOptions: {
+      //     javascriptEnabled: true,
+      //     // If you are using less-loader@5 please spread the lessOptions to options directly
+      //     modifyVars: {
+      //       'primary-color': '#1DA57A',
+      //       'link-color': '#1DA57A',
+      //       'border-radius-base': '2px'
+      //     }
+      //   }
+      // }
     }
   },
   devServer: {

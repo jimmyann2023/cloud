@@ -15,11 +15,13 @@
     "@conventional-commits/parser": "^0.4.1",
     "ant-design-vue": "1.7.8",
     "core-js": "^3.8.3",
+    "store": "^2.0.12",
     "vue": "^2.6.14",
     "vue-router": "^3.5.1",
     "vuex": "^3.6.2",
     "vxe-pc-ui": "3.1.33",
-    "vxe-table": "3.9.16"
+    "vxe-table": "3.9.16",
+    "axios": "^1.7.7"
   },
   "devDependencies": {
     "@babel/core": "^7.12.16",

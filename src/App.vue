@@ -1,40 +1,26 @@
 <template>
   <div id="app">
     <nav>
-      <router-link to="/">Home</router-link> |
-      <router-link to="/about">About</router-link>
+      <router-link to="/">Home</router-link> | <router-link to="/about">About</router-link> |
+      <router-link to="/table">Table</router-link>
     </nav>
-    <span>jsx组件：</span>
+
+    <hr />
+
     <Hello />
-    <div class="bg-blue-600">aaa</div>
-    <a-button type="primary"> Primary </a-button>
-    <vxe-table :data="tableData">
-      <vxe-column type="seq" width="70"></vxe-column>
-      <vxe-column field="name" title="Name"></vxe-column>
-      <vxe-column field="sex" title="Sex"></vxe-column>
-      <vxe-column field="age" title="Age"></vxe-column>
-    </vxe-table>
+    <div class="bg-blue-600">tailwindcss</div>
+    <span class="font-semibold text-4xl text-purple-700">jsx组件：</span>
     <router-view />
   </div>
 </template>
 
 <script>
 import Hello from '@/components/Hello'
+
 export default {
   name: 'App',
   components: {
     Hello
-  },
-  data() {
-    const tableData = [
-      { id: 10001, name: 'Test1', role: 'Develop', sex: 'Man', age: 28, address: 'test abc' },
-      { id: 10002, name: 'Test2', role: 'Test', sex: 'Women', age: 22, address: 'Guangzhou' },
-      { id: 10003, name: 'Test3', role: 'PM', sex: 'Man', age: 32, address: 'Shanghai' },
-      { id: 10004, name: 'Test4', role: 'Designer', sex: 'Women', age: 24, address: 'Shanghai' }
-    ]
-    return {
-      tableData
-    }
   }
 }
 </script>

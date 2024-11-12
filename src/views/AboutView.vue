@@ -1,5 +1,12 @@
 <template>
   <div class="about">
-    <h1>This is an about page</h1>
+    <useCollapseCard />
   </div>
 </template>
+<script>
+import useCollapseCard from '@/components/CollapseCard/useCollapseCard'
+export default {
+  name: 'AboutView',
+  components: { useCollapseCard }
+}
+</script>

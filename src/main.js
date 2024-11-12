@@ -3,13 +3,15 @@ import Antd from 'ant-design-vue'
 
 import App from './App.vue'
 
-import 'tailwindcss/tailwind.css'
+import router from '@/router'
+
+import store from '@/store'
+
+import '@/styles/tailwindcss.'
 import 'vxe-pc-ui/lib/style.css'
 import 'vxe-table/lib/style.css'
-import './styles/custom-vxe.scss'
-import './styles/custom-antd.less'
-import router from './router'
-import store from './store'
+import '@/styles/custom-vxe.scss'
+import '@/styles/custom-antd.less'
 import VxeUI from 'vxe-pc-ui'
 import VxeUITable from 'vxe-table'
 

@@ -1,5 +1,9 @@
 const path = require('path')
 const { defineConfig } = require('@vue/cli-service')
+// TODO: 实现优化下面功能
+// const TerserPlugin = require('terser-webpack-plugin')  // 用于在生成环境剔除debuger和console
+// const CompressionPlugin = require("compression-webpack-plugin"); // gzip压缩,优化http请求,提高加载速度
+// const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin // 代码分析工具
 
 const resolve = (dir) => path.join(__dirname, dir)
 

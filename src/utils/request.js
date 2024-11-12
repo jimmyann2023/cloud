@@ -5,6 +5,7 @@ import store from '@/store'
 import { VueAxios } from './axios'
 import { ACCESS_TOKEN } from '@/constants'
 import axios from 'axios'
+// 这里导入的插件 store 不是上面的 vuex ==> store
 import storage from 'store'
 
 // 创建 axios 实例
